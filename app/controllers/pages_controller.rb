@@ -4,5 +4,6 @@ class PagesController < ApplicationController
 
   def answer
   @query = params[:query]
+  @pif = ['cool' , 'nice', 'sad', 'supeeeerbe!']
   end
 end
